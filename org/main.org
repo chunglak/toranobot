@@ -29,10 +29,7 @@ A ML-assisted framework for devising stock trading strategies
 ** Long description
 #+name: project-long-description
 #+begin_src markdown
-## Installation
-```shell
-$ pip install <<project-name>>
-```
+Under construction…
 #+end_src
 ** URL
 #+name: project-url
@@ -233,7 +230,7 @@ Commands specific to the project
 #+call: make-file-path()
 Create a pyenv venv for the project
 #+begin_src bash :shebang #!/bin/bash
-set -eu
+set -e
 
 # Reset venv
 venv="<<project-name>>"
